@@ -5,7 +5,6 @@ import Main from './app/main';
 // Check environment and set the Config helper
 if(__ENV__ == 'dev') {
   console.log('----- RUNNING IN DEV ENVIRONMENT! -----');
-
   Config.isDev = true;
 }
 
